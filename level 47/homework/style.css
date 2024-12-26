@@ -1,0 +1,98 @@
+/*შექმენით ერთი დიდი div  და  მასში შეიტანეთ შვილი div ები შემდეგ გაანაწილეთ ეს შვილი დივები ისე რომ მათ შორის იყოს თანაბარი სივრცე  გამოიყენეთ justify content
+ */
+
+.flexdirect{
+    display: flex;
+    justify-content: center;
+}
+
+.flexdirect-child1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.flexdirect-child2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.flexdirect-child3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+/*შექმენით ერთი დიდი div  და  მასში შეიტანეთ შვილი div ები შემდეგ დაალაგეთ ეს შვილი დივები ზევიდან ქვევით გამოიყენეთ  flex direction */
+
+
+.deda{
+    display: flex;
+    flex-direction: column;
+}
+
+.shvili1{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+.shvili2{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+.shvili3{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+
+/*
+===================================================
+        justify-content: baseline; - არაფერს არ აკეთებს
+        justify-content: center; - გადმოაქ ბოქსი ჰორიზონტალურად ცენტრში
+        justify-content: end; - ბოქსი გადმოაქ ჰორიზონტალურად მარჯვენა მხარეს
+        justify-content: first baseline; - ბოქსი გადმოაქ მარცხნივ
+        justify-content:flex-start ; - არაფერს არ აკეთებს
+        justify-content: last baseline; - არაფერს არ აკეთებს
+        justify-content: left; - გადმოაქ ბოქსი მარცხნივ
+        justify-content: right; - გადმოაქ ბოქსი მარჯვნივ
+        justify-content: safe; - არაფერს არ აკეთებს
+        justify-content: space-around; - აკეთებს დაშორებს ოღონდ დასაწყისში და ბოლოში ერთია , ერთმანეთში კი სხვა
+        justify-content: space-between; - აკეთებს დაშორებებს ოღონდ დასაწყისში დაშორება არ აქვს
+        justify-content: space-evenly; - აკეთებს დაშორებებს თანაბრად
+        justify-content: start; - არაფერს არ აკეთებს
+        justify-content: stretch; - არაფერს არ აკეთებს
+        justify-content: unsafe; - არაფერს არ აკეთებს
+        justify-content: inherit; - არაფერს არ აკეთებს
+        justify-content: initial; - არაფერს არ აკეთებს
+        justify-content: unset; - არაფერს არ აკეთებს
+=================================================== 
+
+                       flex  direction
+
+    flex-direction: column; - განალაგებს ბოქსებს ვერტიკალურად
+    flex-direction: column-reverse; - განალაგებს ბოქსებს ვერტიკალურად ოღონდ საპირისპიროდ ანუ 123 რომ იყოს იქნება 321
+    flex-direction: row; - განალაგებს ბოქსებს ჰორიზონტალურად
+    flex-direction: row-reverse; - განალაგებს ბოქსებს ჰორიზონტალურად  ოღონდ საპირისპიროდ ანუ 123 რომ იყოს იქნება 321
+    flex-direction: inherit; - არაფერს არ აკეთებს
+    flex-direction: initial; - არაფერს არ აკეთებს
+    flex-direction: unset;  - არაფერს არ აკეთებს
+
+
+*/
+
+
+
+
+
+
+
+
+
+

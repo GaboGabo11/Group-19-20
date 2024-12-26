@@ -1,0 +1,28 @@
+.body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: gainsboro;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.navbar a:hover{
+    color: red;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
