@@ -1,0 +1,19 @@
+
+/*
+    /*display: flex;  Flexbox კონტეინერის ჩართვა */
+ /*   flex-direction: row;  მთავარი ღერძი ჰორიზონტალური */
+   /* justify-content: flex-start;  ელემენტები განლაგებულია მარცხნივ */
+    /*align-items: stretch;  ელემენტები იჭიმება ჯვარედინი ღერძზე */
+   /* align-content: stretch; რამდენიმე რიგის განლაგება */
+ /*   gap: 10px; ელემენტებს შორის დაშორება */
+
+
+  
+
+/*    margin: 20px; გარე დაშორება */
+/*    border: 2px solid black; /*  საზღვარი */
+/*    padding: 15px; დაშორება */
+/*    width: 200px;  სიგანე */
+/*    height: 100px; სიმაღლე */
+
+  
