@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 225, 239);
+    height: 100vh;
+    font-size: 15px;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    width: 400px;
+
+}
+
+.container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text{
+    padding: 22px 10px;
+    
+}
+
+.text h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p {
+    color: hsl(220,15%,55%);
+}
